@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Meyawo landing page.">
-    <meta name="author" content="Devcrud">
     <title>Portfolio</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
@@ -73,12 +69,13 @@
                     <p class="section-subtitle">Who Am I ?</p>
                     <h2 class="section-title mb-3">About Me</h2>
                     <p>
-                        My Full name is Aurelius Trisandio Prasetyo. I am a student of Bina Nusantara University (BINUS).
+                        My full name is Aurelius Trisandio Prasetyo. I am a student of Bina Nusantara University (BINUS).
                         I am majoring in Computer Science and studying Game Application & Technology.
                         Currently, I am still learning to understand how to use Unity better and how to use the C# programming language more better.
                         For more complete data, please download the CV that has been listed below.
                     </p>
-                    <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+                    <a href="D:\Kerja\Github\Relius-TP.github.io\assets\doc\CV_old_Aurelius Trisandio Prasetyo.pdf" download>
+                        <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button></a>
                 </div>              
             </div><!-- end of about wrapper -->
         </div><!-- end of container -->
@@ -178,7 +175,7 @@
     
 
     <!-- section -->
-    <section class="section-sm bg-primary">
+    <section class="section-sm bg-dark">
         <!-- container -->
         <div class="container text-center text-sm-left">
             <!-- row -->
@@ -285,16 +282,16 @@
             <p class="section-subtitle">How can you communicate?</p>
             <h6 class="section-title mb-5">Contact Me</h6>
             <!-- contact form -->
-            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+            <form action="https://formspree.io/f/mwkdyndb" method="POST" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
                     <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>                 
+                        <input type="text" size="50" class="form-control" placeholder="Your Name" required id="name" name="Name">                 
                     </div>
                     <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email"requried>                 
+                        <input type="email" class="form-control" placeholder="Enter Email"requried id="email" name="Email">                 
                     </div>
                     <div class="form-group col-sm-12">
-                        <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
+                        <textarea name="Comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
                     </div>
                     <div class="form-group col-sm-12 mt-3">
                         <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
